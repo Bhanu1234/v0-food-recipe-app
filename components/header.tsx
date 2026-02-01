@@ -36,7 +36,7 @@ export function Header() {
               href="/"
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
             >
-              Home
+              AI Assistant
             </Link>
             <Link
               href="/?category=Breakfast"
@@ -57,10 +57,10 @@ export function Header() {
               Dinner
             </Link>
             <Link
-              href="/?category=Desserts"
+              href="/?category=Vegetarian"
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
             >
-              Desserts
+              Vegetarian
             </Link>
           </nav>
 
@@ -117,7 +117,7 @@ export function Header() {
                 className="px-3 py-2 text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-secondary rounded-md transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Home
+                AI Assistant
               </Link>
               <Link
                 href="/?category=Breakfast"
@@ -141,11 +141,11 @@ export function Header() {
                 Dinner
               </Link>
               <Link
-                href="/?category=Desserts"
+                href="/?category=Vegetarian"
                 className="px-3 py-2 text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-secondary rounded-md transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Desserts
+                Vegetarian
               </Link>
             </nav>
           </div>
